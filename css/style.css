@@ -67,6 +67,11 @@ nav div .user-icons{
     color: white;
 }
 
+nav div ul a:hover{
+    color: black;
+}
+
+
 .user-icons .fa{
     margin-right: 10px;
 }
@@ -93,9 +98,29 @@ div.product-box{
     width: 100%;
 }
 
+.product-photo:hover{
+    color: red;
+}
+
 img.photo{
     width: 100%;
 }
+
+.photo.underlay:hover{
+    position: relative;
+
+    z-index: -2;
+}
+
+.photo.overlay{
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+
+    z-index: -1;
+}
+
 
 .product-image{
     display: flex;
@@ -107,6 +132,8 @@ img.photo{
 
     bottom: 40px;
     left: 0px;
+
+    z-index: 2;
 }
 
 .sale{
@@ -130,6 +157,8 @@ img.photo{
 
     top: 10px;
     right: 0px;
+
+    z-index: 2;
 
     background-color: white;
 }
@@ -173,6 +202,10 @@ div.policy-link a{
 
     font-size: .7em;
     text-decoration: none;
+}
+
+div.policy-link a:hover{
+    text-decoration: underline;
 }
 
 div.social{
