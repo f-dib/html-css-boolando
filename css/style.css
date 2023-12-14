@@ -36,6 +36,7 @@ nav{
     padding-bottom: 15px;
 
     background-color: #ff6900;
+    box-shadow: 0px 2px 1px #bbb8b8;
 }
 
 nav div .nav-links{
@@ -136,7 +137,7 @@ img.photo{
     visibility: hidden;
 
     opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.4s linear;
 
     position: absolute;
 
