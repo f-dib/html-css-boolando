@@ -155,4 +155,31 @@ footer{
 
     background-color: #1a1a1a;
 }
+
+div.policy{
+    flex-grow: 1;
+    color: white;
+    text-align: start;
+}
+
+div.footer-text{
+    margin-bottom: 5px;
+}
+
+div.policy-link a{
+    margin-right: 8px;
+
+    color: white;
+
+    font-size: .7em;
+    text-decoration: none;
+}
+
+div.social{
+    width: 200px;
+
+    color: white;
+
+    text-align: end;
+}
 /* end footer */
